@@ -1,4 +1,4 @@
 interface:
   display_name: "AI 主动学习教练"
-  short_description: "Eight-step coach for active learning with AI"
-  default_prompt: "Use $ai-learning-coach to help me master this topic without giving the answer too early."
+  short_description: "First-principles coach for active learning"
+  default_prompt: "Use $ai-learning-coach to teach this topic from first principles without giving the answer too early."
