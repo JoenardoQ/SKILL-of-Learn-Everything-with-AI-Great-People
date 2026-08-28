@@ -1,4 +1,4 @@
-# Learn with AI: Socrates, Feynman, and the Greats
+# [Skill]Learn with AI: Socrates, Feynman, and the Greats
 
 一个让 AI **促进思考，而不是代替思考**的主动学习 Skill。
 
