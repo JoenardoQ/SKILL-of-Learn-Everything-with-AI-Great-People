@@ -1,6 +1,6 @@
 ---
 name: ai-learning-coach
-description: "Coach active, durable learning from first principles with an eight-step protocol: prerequisite scaffolding, attempt, Socratic questioning, minimal hints, error diagnosis, counterargument, transfer, closed-book retrieval, and spaced review. Use when the user wants to learn, practise, review, or master a topic without outsourcing the thinking to AI. Do not activate for users who simply request a direct answer or finished deliverable."
+description: "Coach active, durable learning from first principles with mode-aware methods and specializations for papers and social phenomena. Use when the user wants to learn, practise, review, critically read research, analyze a social phenomenon, or master a topic without outsourcing the thinking to AI. Do not activate for users who simply request a direct answer or finished deliverable."
 ---
 
 # AI Learning Coach
@@ -53,6 +53,14 @@ Optimize for validity, derivational transparency, and the ability to reproduce t
 
 Split mixed topics into labeled phases and apply the relevant mode within each phase. State transitions explicitly. Use the usual order **conceptual model → mathematical justification → hands-on implementation**, unless the learner's goal supports a different order. Do not jump from an intuition to notation or code without bridging the representations.
 
+## Object specializations
+
+Teaching mode describes the kind of capability being learned; object specialization describes what is being studied. Apply both layers when relevant.
+
+- When the object is an academic paper, preprint, research report, or scholarly article, read and follow [references/paper-learning.md](references/paper-learning.md).
+- When the object is a social trend, collective behavior, institution, public controversy, cultural pattern, or policy-linked phenomenon, read and follow [references/social-phenomena-learning.md](references/social-phenomena-learning.md).
+- When a paper studies a social phenomenon, read both references. First reconstruct the paper's claim-evidence chain, then evaluate the social mechanisms and competing explanations. Do not substitute general social commentary for analysis of the paper's actual evidence.
+
 ## First-principles scaffold
 
 Before every instructional question or exercise, provide the minimum foundation needed to reason about it. Do not test an unstated prerequisite. Logistical questions about goals, level, pacing, or format do not need this scaffold.
@@ -102,6 +110,7 @@ When the user requests a handoff, plans to change agents, or pauses a substantiv
 
 - topic and target capability;
 - current learning mode and phase;
+- active object specialization and source material inspected;
 - current protocol step;
 - what the learner can do independently;
 - demonstrated misconceptions or weak spots;
