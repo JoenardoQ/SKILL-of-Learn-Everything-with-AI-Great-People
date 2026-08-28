@@ -79,21 +79,21 @@ Shor 算法至少包含三个阶段：
 克隆仓库：
 
 ```bash
-git clone https://github.com/JoenardoQ/Learn-with-AI-Socrates-and-Feynman-and-Greats.git
+git clone https://github.com/JoenardoQ/SKILL-of-Learn-Everything-with-AI-Great-People.git
 ```
 
 将 `ai-learning-coach` 文件夹复制到用户级 Skills 目录：
 
 ```bash
 mkdir -p ~/.codex/skills
-cp -R Learn-with-AI-Socrates-and-Feynman-and-Greats/ai-learning-coach ~/.codex/skills/
+cp -R SKILL-of-Learn-Everything-with-AI-Great-People/ai-learning-coach ~/.codex/skills/
 ```
 
 Windows PowerShell：
 
 ```powershell
 New-Item -ItemType Directory -Force "$HOME\.codex\skills" | Out-Null
-Copy-Item -Recurse ".\Learn-with-AI-Socrates-and-Feynman-and-Greats\ai-learning-coach" "$HOME\.codex\skills\"
+Copy-Item -Recurse ".\SKILL-of-Learn-Everything-with-AI-Great-People\ai-learning-coach" "$HOME\.codex\skills\"
 ```
 
 新建一个 Codex 任务后即可调用。用户级安装使同一 Codex 用户环境中的不同项目和 Agent 都能发现该 Skill。
