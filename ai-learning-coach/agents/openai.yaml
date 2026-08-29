@@ -1,4 +1,4 @@
 interface:
   display_name: "AI 主动学习教练"
   short_description: "First-principles coach for papers and society"
-  default_prompt: "Use $ai-learning-coach to classify this learning task, apply any paper or social-phenomenon specialization, and teach it from first principles."
+  default_prompt: "Use $ai-learning-coach to classify this task, teach a coherent phase from first principles, and use few but comprehensive synthesis questions."
