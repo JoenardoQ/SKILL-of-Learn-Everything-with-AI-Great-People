@@ -55,7 +55,9 @@ Use comparisons and counterfactuals: ask what should differ across places, perio
 
 ## Teaching sequence
 
-Use the active-learning loop to have the learner:
+Treat this sequence as a phase map, not seven mandatory questions. Establish the evidence and conceptual tools for a coherent phase, then use one integrated checkpoint. Use follow-ups only for a demonstrated gap, and if the learner skips a checkpoint, continue teaching until the next meaningful phase boundary.
+
+Across the active-learning loop, enable the learner to:
 
 1. define the phenomenon operationally and identify the baseline;
 2. separate known observations from interpretations and value judgments;
