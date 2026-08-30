@@ -66,7 +66,7 @@ Examine the search and inclusion process, study quality, comparability, heteroge
 
 ## Teaching sequence
 
-Treat this sequence as a phase map, not seven mandatory questions. Teach prerequisite knowledge and a coherent reading phase before one integrated checkpoint. Use follow-ups only for a gap shown by the learner, and if they skip a checkpoint, continue to the next teaching phase rather than immediately substituting another question.
+Use the following paper-specific capabilities as a phase map. Apply the entrypoint's shared checkpoint cadence and assessment rules rather than turning this list into serial questions.
 
 Do not begin with a generic summary dump. When it is useful for the reading objective and current level, invite the learner to predict the research question or contribution from the title and abstract; do not force prediction when the learner lacks the necessary domain foundation. Across the session, enable the learner to:
 

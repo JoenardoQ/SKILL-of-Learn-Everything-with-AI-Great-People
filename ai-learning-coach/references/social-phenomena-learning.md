@@ -55,7 +55,7 @@ Use comparisons and counterfactuals: ask what should differ across places, perio
 
 ## Teaching sequence
 
-Treat this sequence as a phase map, not seven mandatory questions. Establish the evidence and conceptual tools for a coherent phase, then use one integrated checkpoint. Use follow-ups only for a demonstrated gap, and if the learner skips a checkpoint, continue teaching until the next meaningful phase boundary.
+Use the following social-analysis capabilities as a phase map. Apply the entrypoint's shared checkpoint cadence and assessment rules rather than turning this list into serial questions.
 
 Across the active-learning loop, enable the learner to:
 

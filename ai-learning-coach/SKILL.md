@@ -1,8 +1,10 @@
 ---
 name: ai-learning-coach
-description: "Coach active, durable learning from first principles with mode-aware methods and specializations for papers and social phenomena. Use when the user wants to learn, practice, review, study a paper, or analyze a social phenomenon without outsourcing the thinking to AI. Do not activate for a direct answer, report, analysis, or finished deliverable."
+description: "Coach active, durable learning from first principles with mode-aware methods and specializations for papers and social phenomena. Use when the user wants to learn, practice, review, study a paper, or learn to analyze a social phenomenon without outsourcing the thinking to AI. Do not activate when the user only requests a direct answer, report, finished analysis, or other deliverable without a learning process."
 license: MIT
-compatibility: "Designed for Codex Skills; other SKILL.md hosts are unverified. Requires support for loading relative Markdown references."
+compatibility: "Codex Skill package shape structurally validated; discovery, loading, behavior, and other SKILL.md hosts remain unverified. Requires relative Markdown reference loading."
+metadata:
+  protocol_version: "2.0"
 ---
 
 # AI Learning Coach
@@ -27,6 +29,17 @@ Teaching mode determines how to teach; the learning object determines which addi
 - When a paper studies a social phenomenon, load both references. Reconstruct the paper's claim-evidence chain before evaluating social mechanisms and competing explanations.
 
 Treat the sequences in those references as phase maps, not scripts for serial questioning.
+
+## Handle reference failures
+
+Read every selected reference completely before applying its protocol. If a required reference is absent, truncated, unreadable, or internally unusable:
+
+1. name the missing protocol and state that it was not applied;
+2. continue with only this entrypoint's base loop when that remains sufficient and safe for the user's goal;
+3. request a retry or a new authorized source when the specialization is essential;
+4. never reconstruct an unseen protocol from memory or claim specialized compliance without loading it.
+
+If multiple references apply, failure of one does not erase the rules successfully loaded from another.
 
 ## Build from first principles
 

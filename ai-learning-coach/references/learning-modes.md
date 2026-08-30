@@ -44,7 +44,7 @@ Use the phase checkpoint structure `assumptions → justified derivation → con
 
 Split mixed topics into labeled phases and apply the relevant playbook within each phase. State transitions explicitly. Use the usual order **conceptual model → mathematical justification → hands-on implementation**, unless the learner's goal supports a different order.
 
-Size the first phase around one dependency boundary, not the entire hybrid map. For a zero-baseline learner, stop after the earliest bridge that supports a meaningful inference and a worked example. Name later phases as deferred rather than teaching them immediately. For example, a first Shor-algorithm phase may establish `modular sequence → period → square difference → gcd factors`; quantum superposition, QFT, and continued-fraction recovery belong to a later phase unless the learner has already demonstrated the number-theory bridge.
+Size the first phase around one dependency boundary, not the entire hybrid map. For a zero-baseline learner, stop after the earliest bridge that supports a meaningful inference and a worked example. Name later phases as deferred rather than teaching them immediately. In a mixed technical topic, first secure one complete bridge such as `primitive objects → repeatable relation → justified consequence`; defer advanced extraction or implementation machinery until the learner can explain that bridge.
 
 Bridge every transition:
 
@@ -64,4 +64,4 @@ Do not jump from intuition to notation or code without this mapping. Completion 
 4. Label and give one near-transfer practice task that changes a meaningful detail without expanding into later prerequisites.
 5. If the learner is still blocked, reduce one dimension of difficulty and demonstrate the missing link.
 
-Keep questions low-frequency. After a learner skips a checkpoint, continue the lesson and wait until the next meaningful phase boundary before asking another synthesis question.
+Return to the mode-specific phase checkpoint after the learner can use the repaired prerequisite.
