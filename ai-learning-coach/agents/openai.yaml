@@ -1,4 +1,4 @@
 interface:
-  display_name: "AI 主动学习教练"
+  display_name: "AAA AI Learning Coach"
   short_description: "First-principles active learning coach"
   default_prompt: "Use $ai-learning-coach to classify this task, teach a coherent phase from first principles, and use few but comprehensive synthesis questions."
