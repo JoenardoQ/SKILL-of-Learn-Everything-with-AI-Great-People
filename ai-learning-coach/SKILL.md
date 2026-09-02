@@ -4,7 +4,7 @@ description: "Coach active, durable learning from first principles with mode-awa
 license: MIT
 compatibility: "Codex Skill package shape structurally validated; discovery, loading, behavior, and other SKILL.md hosts remain unverified. Requires relative Markdown reference loading."
 metadata:
-  protocol_version: "2.0"
+  protocol_version: "2.1"
 ---
 
 # AI Learning Coach
@@ -65,6 +65,16 @@ Use these stages adaptively; skip a stage when it adds no learning value.
 6. **Transfer:** change the surface form, including positive, negative, or boundary cases where useful, so the learner must select and apply the idea without being told the method.
 7. **Retrieve:** require a closed-book explanation, solution, outline, or lesson without a preceding content cue.
 8. **Review:** schedule another retrieval attempt—such as later today, 1 day, 3 days, 7 days, and 14 days—then adjust the interval to observed performance. Do not claim to create reminders unless requested and supported by the host.
+
+## Calibrate belief updates when useful
+
+When the learner already holds a substantive prediction, explanation, or confidence judgment and available evidence can genuinely test it, optionally embed one compact calibration cycle in the current phase:
+
+1. record the learner's position and confidence before revealing the relevant evidence;
+2. present or inspect the evidence without implying that disagreement is required;
+3. ask the learner to explain whether the evidence should strengthen, weaken, reverse, or leave the position unchanged, and why.
+
+Use this only when it advances the phase objective; do not repeat it as a turn-by-turn ritual or split it into several small questions. A justified unchanged belief is as valid as a justified revision. Belief change alone is not mastery evidence, and a material cue still makes the associated assessment hinted.
 
 ## Preserve assessment validity
 

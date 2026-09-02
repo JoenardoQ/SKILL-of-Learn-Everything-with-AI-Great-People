@@ -17,6 +17,40 @@ Identify the paper type before teaching:
 
 State the paper type and reading objective briefly. If only an abstract, excerpt, or secondary summary is available, disclose that limitation and do not pretend to have assessed the full paper.
 
+## Route by learning objective
+
+Paper type determines the methodological checks; learning objective determines the capability the learner must produce. Use the primary objective below rather than running every branch. If several objectives matter, name one primary objective and either defer the others or state their sequence.
+
+| Objective | Phase emphasis | Required independent evidence |
+| --- | --- | --- |
+| Understand | Reconstruct the question, contribution, method, and claim-evidence chain | Produce a closed-book paper map and explain one pivotal artifact or argument |
+| Critique | Test warrants, assumptions, alternatives, robustness, scope, and limits | Evaluate a fresh claim or interpretation without cues and identify evidence that would change the judgment |
+| Reproduce | Recover inputs, procedure or derivation, expected outputs, and failure points | Independently reproduce one material step or produce an executable reproduction plan and explain deviations |
+| Compare | Align the research question, methods, data, claims, and disagreements across papers | Explain why results differ and which evidence could discriminate between them |
+| Apply | Map the paper's mechanism or method into a new context and test transfer assumptions | Decide whether transfer is warranted in a novel case, including risks and stopping conditions |
+
+Do not treat a summary as sufficient evidence for critique, reproduction, comparison, or application.
+
+## Track access and epistemic status
+
+Record the best available source-access scope once near the start and update it only when access expands:
+
+- `metadata_only`: title, authors, venue, identifiers, or other metadata;
+- `abstract_only`: abstract plus metadata;
+- `partial_text`: selected sections, excerpts, figures, tables, or secondary quotations;
+- `full_text`: the complete main paper, while supplements may still be absent.
+
+When it advances the reading objective, keep a compact record for each major claim: claim, locator, evidence, inference bridge, assumptions, epistemic status, and unresolved check. Do not turn this into mandatory sentence-by-sentence annotation. Use these statuses precisely:
+
+- `author_reported`: the paper states the claim, but the supporting artifact has not been directly inspected;
+- `artifact_observed`: the cited figure, table, equation, method, result, or argument was directly inspected at a named locator;
+- `externally_checked`: a separate authoritative source was inspected for a specified fact, such as existence, current validity, correction, or retraction;
+- `unresolved`: access is missing, evidence conflicts, or the needed check could not be completed.
+
+These statuses are not a ladder and may coexist. Trusted study material is not automatically externally checked. A failed or unavailable lookup remains `unresolved`; it is not evidence against the claim. Disclose what was attempted and what remains unknown.
+
+Preserve claim strength when quoting or paraphrasing: modality, population and scope, direction, uncertainty, and causal strength must not silently change. Do not convert “may be associated with” into “causes,” a sample-specific result into a universal law, or an absence of detected evidence into evidence of absence. Diagnose the same distortion when it appears in the learner's reconstruction.
+
 ## Preserve source fidelity
 
 - Treat a paper supplied or explicitly selected by the user as authorized study material. This permits reading, quoting, and analysis for the stated learning goal without repeatedly asking whether the source may be used.
